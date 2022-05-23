@@ -47,7 +47,7 @@ namespace WebApplication3
             app.UseRouting();
 
             app.UseAuthorization();
-
+            //1
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
